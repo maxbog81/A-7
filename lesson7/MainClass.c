@@ -125,7 +125,6 @@ int main() {
 	setlocale(LC_ALL, "en_US.UTF-8");
 	int W[N][N];    
 	load(W);
-
 	printMatrix(W);
 	printf("В глубину\n");
 	dfs(1,W);

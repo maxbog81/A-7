@@ -127,10 +127,10 @@ int main() {
 	load(W);
 
 	printMatrix(W);
-	printf("\n");
+	printf("В глубину\n");
 	dfs(1,W);
 	Q c;
-	printf("\n");
+	printf("В ширину\n");
 	bfs(1,W);
 	printf("\n");
 	system("pause");
